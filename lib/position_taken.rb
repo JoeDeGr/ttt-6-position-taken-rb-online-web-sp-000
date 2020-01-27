@@ -1,8 +1,7 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
-  if (board[index] != (" " || ""))
-puts "That space is taken!"
-else
+  if (board[index] == (" " || ""))
+    
   board[index] = index
 end
 end
